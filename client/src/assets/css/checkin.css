@@ -1,0 +1,46 @@
+.pagetitle {
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 10px 10px 17px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle {
+    text-shadow: 10px 10px 17px rgba(0, 0, 0, 0.10);
+}
+
+#checkindiv {
+    min-height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 136, 188, 0.65) 0%, rgba(0, 136, 188, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textbox {
+    border-radius: 10px;
+    border: 5px;
+    border-color: white;
+    margin-top: 1rem;
+}
+.questtitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-shadow: 10px 10px 17px rgba(0, 0, 0, 0.5);
+}
+.checkintextarea {
+    width: 25vw;
+    min-height: 20vh;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+.checkinbutton {
+    margin-block: 2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 10px;
+    padding: 0.25rem 1rem;
+    font-size: 1.25rem;
+}
+input::-webkit-inner-spin-button {
+    display: none !important;
+}

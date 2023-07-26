@@ -1,0 +1,22 @@
+.message-input-container {
+    display: flex;
+    gap: 4px;
+}
+
+.message-input {
+    padding: 12px 8px;
+    flex: 1;
+    background: white;
+    border-radius: var(--border-radius);
+    
+}
+
+.send-message {
+    padding: 0.375rem 1rem;
+    font-size: 1.25rem;
+    background: linear-gradient(to bottom right, #0088BC, #D83F1F);
+    color: white;
+    box-shadow: 8px 8px 12px rebeccapurple;
+    border-radius: 10px;
+    cursor: pointer;
+}

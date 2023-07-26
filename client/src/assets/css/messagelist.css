@@ -1,0 +1,37 @@
+.message-list-container {
+    margin-bottom: 16px;
+    flex: 1 1;
+    overflow: scroll;
+    background: linear-gradient(to bottom right, orange, blue);
+    border-radius: 25px;
+    color: white;
+    height: 65vh;
+}
+.messages-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.message-list {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+
+.message {
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    background: var(--color-gray);
+    border-radius: var(--border-radius);
+    text-align: left;
+}
+
+.own-message {
+    background: var(--color-blue);
+    align-self: flex-end;
+    text-align: right;
+}
+
+.sender {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Montserrat:wght@600&display=swap');
+
+#backtohome {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 0.375rem 1rem;
+    font-size: 1.25rem;
+    background: linear-gradient(to bottom right, #0088BC, #D83F1F);
+    color: white;
+}
+
+.pcontainer {
+    /* margin-top: 100px; */
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    min-height: 100vh;
+}
+
+.pcomments-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    row-gap: 25px;
+}
+
+.precommendation-border {
+    background: rgba(0, 136, 188, 0.15);
+    border: 5px solid rgba(0, 136, 188, 0.4);
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.presults-page-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.precommendation-body {
+    padding: 20px;
+}
+
+.precommendation-name {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.precommendation-text {
+    align-content: left;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#chat-button {
+    margin-top: 15px;
+    margin-block: 2rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px;
+    padding-inline: 1rem;
+}

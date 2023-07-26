@@ -1,0 +1,75 @@
+#questform {
+    height: 88vh;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+}
+
+#questform p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-shadow: 10px 10px 17px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+.css-1r5m2vd-container {
+    margin-top: 2rem !important;
+    width: auto !important;
+    max-width: 75vw !important;
+}
+.css-1r5m2vd-container * {
+    font-size: 1.25rem !important;
+    color: black;
+}
+.css-13gadw6-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 25rem;
+    margin: auto;
+}
+#prevq {
+    background: linear-gradient(to bottom right, orange, blue);
+    transition: all .3s ease-in-out;
+}
+#prevq:hover {
+    background: linear-gradient(to bottom right, red, green);
+}
+#nextq {
+    background: linear-gradient(to bottom right, green, orange);
+    transition: all .3s ease-in-out;
+}
+#nextq:hover {
+    background: linear-gradient(to bottom right, red, blue);
+}
+#outertyped {
+    text-shadow: 10px 10px 10px orange;
+    font-size: 3rem;
+}
+.shadows, #questform select, .css-13gadw6-container, .message-input, .css-13cymwt-control {
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 10px brown;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+.css-13cymwt-control {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+#questform select {
+    border: none;
+    border-radius: 10px;
+    padding: 4px 4px;
+    font-size: 1.25rem;
+}
+#questform select:not(.ingroupselect) {
+    margin-block: 1rem;
+}
+
+#questsubmit {
+    padding-inline: 1rem;
+    background: linear-gradient(to bottom right, blue, rgba(216, 63, 31, 0.7));
+}
+
+/* shadow styles */
+#questsubmit, #nextq, #prevq {
+    box-shadow: 10px 10px 10px #00000033;
+}
