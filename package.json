@@ -9,6 +9,6 @@
     "start:client": "cd client && npm start",
     "start:server": "cd server && uvicorn main:app --reload"
   },
-  "author": "",
+  "author": "Nathanuel Dixon, Anastasia Samoilova, Swapnil Sharma, and Abigail Zhou",
   "license": "ISC"
 }
