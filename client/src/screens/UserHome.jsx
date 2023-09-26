@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import Quest from '../components/home/Quest';
 import { AuthContext } from '../App';
 import { useNavigate } from 'react-router-dom';
-import Results from './Results';
 import { RingLoader } from 'react-spinners';
 import { db } from '../firebase';
 import { getFirestore, setDoc, doc, getDoc, collection, addDoc, getDocs, serverTimestamp } from "firebase/firestore";
